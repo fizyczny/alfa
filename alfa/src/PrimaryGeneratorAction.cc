@@ -56,12 +56,17 @@ void PrimaryGeneratorAction::GenerateAlphaIncident(G4Event* anEvent)
      G4double phiMax =360*deg;
      G4ParticleDefinition* particle = particleTable->FindParticle("alpha");
      
-	
-     G4double r=G4UniformRand()*sin(90*deg)*2.5*cm;
+     G4double r=2.5*cm;
      G4double ang=(G4UniformRand()*360*deg);
+     G4double ra=(G4UniformRand()+G4UniformRand())*r;
      
-     G4double X= r*sin(ang);
-     G4double Y= r*cos(ang);
+     if (ra>r)
+     {
+         ra=2*r-ra;
+     }
+     
+     G4double X= ra*cos(ang);
+     G4double Y= ra*sin(ang);
      G4double Z =((G4UniformRand()-0.5)*0.0004-0.0012)*mm;
      particleGun->SetParticlePosition(G4ThreeVector(X,Y,Z));
      particleGun->SetParticleDefinition(particle);
