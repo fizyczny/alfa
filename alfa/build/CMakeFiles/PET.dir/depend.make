@@ -5,11 +5,6 @@ CMakeFiles/PET.dir/PET.cc.o: ../include/DetectorConstruction.hh
 CMakeFiles/PET.dir/PET.cc.o: ../include/Dish.hh
 CMakeFiles/PET.dir/PET.cc.o: ../include/EventAction.hh
 CMakeFiles/PET.dir/PET.cc.o: ../include/OutputRoot.hh
-CMakeFiles/PET.dir/PET.cc.o: ../include/PhysicsList.hh
-CMakeFiles/PET.dir/PET.cc.o: ../include/PrimaryGeneratorAction.hh
-CMakeFiles/PET.dir/PET.cc.o: ../include/RunAction.hh
-CMakeFiles/PET.dir/PET.cc.o: ../include/Source.hh
-CMakeFiles/PET.dir/PET.cc.o: ../include/SteppingAction.hh
 CMakeFiles/PET.dir/PET.cc.o: ../PET.cc
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/BasicVector3D.h
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Normal3D.h
@@ -335,7 +330,6 @@ CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Partic
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleChangeForDecay.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleDefinition.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleDefinition.icc
-CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleGun.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleMomentum.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleTable.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleTable.icc
@@ -434,8 +428,6 @@ CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4TauMin
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4TauPlus.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Threading.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ThreeVector.hh
-CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Timer.hh
-CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Timer.icc
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ToolsAnalysisManager.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ToolsAnalysisManager.icc
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4TouchableHandle.hh
@@ -471,7 +463,6 @@ CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4UItoke
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4UnknownParticle.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Upsilon.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4UserEventAction.hh
-CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4UserRunAction.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4UserStackingAction.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4UserSteppingAction.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4UserTrackingAction.hh
@@ -507,7 +498,6 @@ CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VPhysi
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VPhysicalVolume.icc
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VPhysicsConstructor.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VPiKBuilder.hh
-CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VPrimaryGenerator.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VProcess.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VRML1File.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VRML2File.hh
@@ -528,7 +518,6 @@ CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VUPLSp
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VUserDetectorConstruction.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VUserEventInformation.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VUserPhysicsList.hh
-CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VUserPrimaryGeneratorAction.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VUserTrackInformation.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VViewer.hh
 CMakeFiles/PET.dir/PET.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VViewer.icc
@@ -1391,7 +1380,6 @@ CMakeFiles/PET.dir/src/EMPhysics.cc.o: /usr/local/geant4.10.05.p01/include/Geant
 
 CMakeFiles/PET.dir/src/EventAction.cc.o: ../include/EventAction.hh
 CMakeFiles/PET.dir/src/EventAction.cc.o: ../include/OutputRoot.hh
-CMakeFiles/PET.dir/src/EventAction.cc.o: ../include/SteppingAction.hh
 CMakeFiles/PET.dir/src/EventAction.cc.o: ../src/EventAction.cc
 CMakeFiles/PET.dir/src/EventAction.cc.o: /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/BasicVector3D.h
 CMakeFiles/PET.dir/src/EventAction.cc.o: /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Normal3D.h
@@ -1534,7 +1522,6 @@ CMakeFiles/PET.dir/src/EventAction.cc.o: /usr/local/geant4.10.05.p01/include/Gea
 CMakeFiles/PET.dir/src/EventAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Transform3D.hh
 CMakeFiles/PET.dir/src/EventAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Types.hh
 CMakeFiles/PET.dir/src/EventAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4UserEventAction.hh
-CMakeFiles/PET.dir/src/EventAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4UserSteppingAction.hh
 CMakeFiles/PET.dir/src/EventAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VAnalysisManager.hh
 CMakeFiles/PET.dir/src/EventAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VAnalysisManager.icc
 CMakeFiles/PET.dir/src/EventAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VDigiCollection.hh
@@ -1988,20 +1975,14 @@ CMakeFiles/PET.dir/src/OutputRoot.cc.o: /usr/local/geant4.10.05.p01/include/Gean
 
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: ../include/EMPhysics.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: ../include/GeneralPhysics.hh
-CMakeFiles/PET.dir/src/PhysicsList.cc.o: ../include/PhysicsList.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: ../src/PhysicsList.cc
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/PhysicalConstants.h
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/SystemOfUnits.h
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/defs.h
-CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Allocator.hh
-CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4AllocatorPool.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4AutoLock.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4EnvironmentUtils.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Exception.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ExceptionSeverity.hh
-CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4GeomSplitter.hh
-CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4MCCIndexConversionTable.hh
-CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4MaterialCutsCouple.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4PDefManager.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleDefinition.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleDefinition.icc
@@ -2010,29 +1991,21 @@ CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Gea
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleTableIterator.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4PhysicsListHelper.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4PhysicsListOrderingParameter.hh
-CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ProductionCuts.hh
-CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ProductionCutsTable.hh
-CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Region.hh
-CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Region.icc
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4String.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4String.icc
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4SystemOfUnits.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Threading.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Types.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VExceptionHandler.hh
-CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VModularPhysicsList.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VPhysicsConstructor.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VUPLSplitter.hh
-CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VUserPhysicsList.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ios.hh
-CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/geomwdefs.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/globals.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/pwdefs.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/rundefs.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/templates.hh
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/tls.hh
 
-CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: ../include/PrimaryGeneratorAction.hh
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: ../src/PrimaryGeneratorAction.cc
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Random/DRand48Engine.h
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Random/DualRand.h
@@ -2111,9 +2084,6 @@ CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleDefinition.icc
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleGun.hh
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleMomentum.hh
-CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleTable.hh
-CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleTable.icc
-CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleTableIterator.hh
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4PrimaryParticle.hh
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4PrimaryVertex.hh
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4String.hh
@@ -2124,7 +2094,6 @@ CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Types.hh
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VExceptionHandler.hh
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VPrimaryGenerator.hh
-CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VUserPrimaryGeneratorAction.hh
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ios.hh
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/Randomize.hh
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/globals.hh
@@ -2132,7 +2101,6 @@ CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/templates.hh
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/tls.hh
 
-CMakeFiles/PET.dir/src/RunAction.cc.o: ../include/RunAction.hh
 CMakeFiles/PET.dir/src/RunAction.cc.o: ../src/RunAction.cc
 CMakeFiles/PET.dir/src/RunAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4EnvironmentUtils.hh
 CMakeFiles/PET.dir/src/RunAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Exception.hh
@@ -2140,17 +2108,13 @@ CMakeFiles/PET.dir/src/RunAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant
 CMakeFiles/PET.dir/src/RunAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Run.hh
 CMakeFiles/PET.dir/src/RunAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4String.hh
 CMakeFiles/PET.dir/src/RunAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4String.icc
-CMakeFiles/PET.dir/src/RunAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Timer.hh
-CMakeFiles/PET.dir/src/RunAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Timer.icc
 CMakeFiles/PET.dir/src/RunAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4Types.hh
-CMakeFiles/PET.dir/src/RunAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4UserRunAction.hh
 CMakeFiles/PET.dir/src/RunAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4VExceptionHandler.hh
 CMakeFiles/PET.dir/src/RunAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/G4ios.hh
 CMakeFiles/PET.dir/src/RunAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/globals.hh
 CMakeFiles/PET.dir/src/RunAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/templates.hh
 CMakeFiles/PET.dir/src/RunAction.cc.o: /usr/local/geant4.10.05.p01/include/Geant4/tls.hh
 
-CMakeFiles/PET.dir/src/Source.cc.o: ../include/Source.hh
 CMakeFiles/PET.dir/src/Source.cc.o: ../src/Source.cc
 CMakeFiles/PET.dir/src/Source.cc.o: /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/BasicVector3D.h
 CMakeFiles/PET.dir/src/Source.cc.o: /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Normal3D.h

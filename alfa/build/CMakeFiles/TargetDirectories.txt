@@ -1,3 +1,3 @@
-/home/local1/Desktop/alfa/build/CMakeFiles/rebuild_cache.dir
-/home/local1/Desktop/alfa/build/CMakeFiles/edit_cache.dir
-/home/local1/Desktop/alfa/build/CMakeFiles/PET.dir
+/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/rebuild_cache.dir
+/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/edit_cache.dir
+/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/PET.dir

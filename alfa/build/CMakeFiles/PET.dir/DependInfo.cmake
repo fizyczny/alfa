@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/local1/Desktop/alfa/PET.cc" "/home/local1/Desktop/alfa/build/CMakeFiles/PET.dir/PET.cc.o"
-  "/home/local1/Desktop/alfa/src/DetectorConstruction.cc" "/home/local1/Desktop/alfa/build/CMakeFiles/PET.dir/src/DetectorConstruction.cc.o"
-  "/home/local1/Desktop/alfa/src/Dish.cc" "/home/local1/Desktop/alfa/build/CMakeFiles/PET.dir/src/Dish.cc.o"
-  "/home/local1/Desktop/alfa/src/EMPhysics.cc" "/home/local1/Desktop/alfa/build/CMakeFiles/PET.dir/src/EMPhysics.cc.o"
-  "/home/local1/Desktop/alfa/src/EventAction.cc" "/home/local1/Desktop/alfa/build/CMakeFiles/PET.dir/src/EventAction.cc.o"
-  "/home/local1/Desktop/alfa/src/GeneralPhysics.cc" "/home/local1/Desktop/alfa/build/CMakeFiles/PET.dir/src/GeneralPhysics.cc.o"
-  "/home/local1/Desktop/alfa/src/OutputRoot.cc" "/home/local1/Desktop/alfa/build/CMakeFiles/PET.dir/src/OutputRoot.cc.o"
-  "/home/local1/Desktop/alfa/src/PhysicsList.cc" "/home/local1/Desktop/alfa/build/CMakeFiles/PET.dir/src/PhysicsList.cc.o"
-  "/home/local1/Desktop/alfa/src/PrimaryGeneratorAction.cc" "/home/local1/Desktop/alfa/build/CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o"
-  "/home/local1/Desktop/alfa/src/RunAction.cc" "/home/local1/Desktop/alfa/build/CMakeFiles/PET.dir/src/RunAction.cc.o"
-  "/home/local1/Desktop/alfa/src/Source.cc" "/home/local1/Desktop/alfa/build/CMakeFiles/PET.dir/src/Source.cc.o"
-  "/home/local1/Desktop/alfa/src/SteppingAction.cc" "/home/local1/Desktop/alfa/build/CMakeFiles/PET.dir/src/SteppingAction.cc.o"
+  "/home/local1/Desktop/alfa-master/alfa/PET.cc" "/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/PET.dir/PET.cc.o"
+  "/home/local1/Desktop/alfa-master/alfa/src/DetectorConstruction.cc" "/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/PET.dir/src/DetectorConstruction.cc.o"
+  "/home/local1/Desktop/alfa-master/alfa/src/Dish.cc" "/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/PET.dir/src/Dish.cc.o"
+  "/home/local1/Desktop/alfa-master/alfa/src/EMPhysics.cc" "/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/PET.dir/src/EMPhysics.cc.o"
+  "/home/local1/Desktop/alfa-master/alfa/src/EventAction.cc" "/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/PET.dir/src/EventAction.cc.o"
+  "/home/local1/Desktop/alfa-master/alfa/src/GeneralPhysics.cc" "/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/PET.dir/src/GeneralPhysics.cc.o"
+  "/home/local1/Desktop/alfa-master/alfa/src/OutputRoot.cc" "/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/PET.dir/src/OutputRoot.cc.o"
+  "/home/local1/Desktop/alfa-master/alfa/src/PhysicsList.cc" "/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/PET.dir/src/PhysicsList.cc.o"
+  "/home/local1/Desktop/alfa-master/alfa/src/PrimaryGeneratorAction.cc" "/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o"
+  "/home/local1/Desktop/alfa-master/alfa/src/RunAction.cc" "/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/PET.dir/src/RunAction.cc.o"
+  "/home/local1/Desktop/alfa-master/alfa/src/Source.cc" "/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/PET.dir/src/Source.cc.o"
+  "/home/local1/Desktop/alfa-master/alfa/src/SteppingAction.cc" "/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/PET.dir/src/SteppingAction.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

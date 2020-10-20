@@ -6,12 +6,7 @@ CMakeFiles/PET.dir/PET.cc.o
  ../include/Dish.hh
  ../include/EventAction.hh
  ../include/OutputRoot.hh
- ../include/PhysicsList.hh
- ../include/PrimaryGeneratorAction.hh
- ../include/RunAction.hh
- ../include/Source.hh
- ../include/SteppingAction.hh
- /home/local1/Desktop/alfa/PET.cc
+ /home/local1/Desktop/alfa-master/alfa/PET.cc
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/BasicVector3D.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Normal3D.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Plane3D.h
@@ -336,7 +331,6 @@ CMakeFiles/PET.dir/PET.cc.o
  /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleChangeForDecay.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleDefinition.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleDefinition.icc
- /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleGun.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleMomentum.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleTable.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleTable.icc
@@ -435,8 +429,6 @@ CMakeFiles/PET.dir/PET.cc.o
  /usr/local/geant4.10.05.p01/include/Geant4/G4TauPlus.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4Threading.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4ThreeVector.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4Timer.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4Timer.icc
  /usr/local/geant4.10.05.p01/include/Geant4/G4ToolsAnalysisManager.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4ToolsAnalysisManager.icc
  /usr/local/geant4.10.05.p01/include/Geant4/G4TouchableHandle.hh
@@ -472,7 +464,6 @@ CMakeFiles/PET.dir/PET.cc.o
  /usr/local/geant4.10.05.p01/include/Geant4/G4UnknownParticle.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4Upsilon.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4UserEventAction.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4UserRunAction.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4UserStackingAction.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4UserSteppingAction.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4UserTrackingAction.hh
@@ -508,7 +499,6 @@ CMakeFiles/PET.dir/PET.cc.o
  /usr/local/geant4.10.05.p01/include/Geant4/G4VPhysicalVolume.icc
  /usr/local/geant4.10.05.p01/include/Geant4/G4VPhysicsConstructor.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VPiKBuilder.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4VPrimaryGenerator.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VProcess.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VRML1File.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VRML2File.hh
@@ -529,7 +519,6 @@ CMakeFiles/PET.dir/PET.cc.o
  /usr/local/geant4.10.05.p01/include/Geant4/G4VUserDetectorConstruction.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VUserEventInformation.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VUserPhysicsList.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4VUserPrimaryGeneratorAction.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VUserTrackInformation.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VViewer.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VViewer.icc
@@ -668,7 +657,7 @@ CMakeFiles/PET.dir/src/DetectorConstruction.cc.o
  ../include/DetectorConstruction.hh
  ../include/Dish.hh
  ../include/Source.hh
- /home/local1/Desktop/alfa/src/DetectorConstruction.cc
+ /home/local1/Desktop/alfa-master/alfa/src/DetectorConstruction.cc
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/BasicVector3D.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Normal3D.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Plane3D.h
@@ -840,7 +829,7 @@ CMakeFiles/PET.dir/src/DetectorConstruction.cc.o
  /usr/local/geant4.10.05.p01/include/Geant4/trkdefs.hh
 CMakeFiles/PET.dir/src/Dish.cc.o
  ../include/Dish.hh
- /home/local1/Desktop/alfa/src/Dish.cc
+ /home/local1/Desktop/alfa-master/alfa/src/Dish.cc
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/BasicVector3D.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Normal3D.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Plane3D.h
@@ -1008,7 +997,7 @@ CMakeFiles/PET.dir/src/Dish.cc.o
  /usr/local/geant4.10.05.p01/include/Geant4/trkdefs.hh
 CMakeFiles/PET.dir/src/EMPhysics.cc.o
  ../include/EMPhysics.hh
- /home/local1/Desktop/alfa/src/EMPhysics.cc
+ /home/local1/Desktop/alfa-master/alfa/src/EMPhysics.cc
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/BasicVector3D.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Normal3D.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Point3D.h
@@ -1392,8 +1381,7 @@ CMakeFiles/PET.dir/src/EMPhysics.cc.o
 CMakeFiles/PET.dir/src/EventAction.cc.o
  ../include/EventAction.hh
  ../include/OutputRoot.hh
- ../include/SteppingAction.hh
- /home/local1/Desktop/alfa/src/EventAction.cc
+ /home/local1/Desktop/alfa-master/alfa/src/EventAction.cc
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/BasicVector3D.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Normal3D.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Point3D.h
@@ -1535,7 +1523,6 @@ CMakeFiles/PET.dir/src/EventAction.cc.o
  /usr/local/geant4.10.05.p01/include/Geant4/G4Transform3D.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4Types.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4UserEventAction.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4UserSteppingAction.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VAnalysisManager.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VAnalysisManager.icc
  /usr/local/geant4.10.05.p01/include/Geant4/G4VDigiCollection.hh
@@ -1659,7 +1646,7 @@ CMakeFiles/PET.dir/src/EventAction.cc.o
  /usr/local/geant4.10.05.p01/include/Geant4/trkdefs.hh
 CMakeFiles/PET.dir/src/GeneralPhysics.cc.o
  ../include/GeneralPhysics.hh
- /home/local1/Desktop/alfa/src/GeneralPhysics.cc
+ /home/local1/Desktop/alfa-master/alfa/src/GeneralPhysics.cc
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Random/DRand48Engine.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Random/DualRand.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Random/Hurd160Engine.h
@@ -1849,7 +1836,7 @@ CMakeFiles/PET.dir/src/GeneralPhysics.cc.o
  /usr/local/geant4.10.05.p01/include/Geant4/trkdefs.hh
 CMakeFiles/PET.dir/src/OutputRoot.cc.o
  ../include/OutputRoot.hh
- /home/local1/Desktop/alfa/src/OutputRoot.cc
+ /home/local1/Desktop/alfa-master/alfa/src/OutputRoot.cc
  /usr/local/geant4.10.05.p01/include/Geant4/G4AnalysisManagerState.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4AnalysisUtilities.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4AnalysisVerbose.hh
@@ -1989,20 +1976,14 @@ CMakeFiles/PET.dir/src/OutputRoot.cc.o
 CMakeFiles/PET.dir/src/PhysicsList.cc.o
  ../include/EMPhysics.hh
  ../include/GeneralPhysics.hh
- ../include/PhysicsList.hh
- /home/local1/Desktop/alfa/src/PhysicsList.cc
+ /home/local1/Desktop/alfa-master/alfa/src/PhysicsList.cc
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/PhysicalConstants.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/SystemOfUnits.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Units/defs.h
- /usr/local/geant4.10.05.p01/include/Geant4/G4Allocator.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4AllocatorPool.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4AutoLock.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4EnvironmentUtils.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4Exception.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4ExceptionSeverity.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4GeomSplitter.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4MCCIndexConversionTable.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4MaterialCutsCouple.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4PDefManager.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleDefinition.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleDefinition.icc
@@ -2011,30 +1992,22 @@ CMakeFiles/PET.dir/src/PhysicsList.cc.o
  /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleTableIterator.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4PhysicsListHelper.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4PhysicsListOrderingParameter.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4ProductionCuts.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4ProductionCutsTable.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4Region.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4Region.icc
  /usr/local/geant4.10.05.p01/include/Geant4/G4String.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4String.icc
  /usr/local/geant4.10.05.p01/include/Geant4/G4SystemOfUnits.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4Threading.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4Types.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VExceptionHandler.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4VModularPhysicsList.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VPhysicsConstructor.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VUPLSplitter.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4VUserPhysicsList.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4ios.hh
- /usr/local/geant4.10.05.p01/include/Geant4/geomwdefs.hh
  /usr/local/geant4.10.05.p01/include/Geant4/globals.hh
  /usr/local/geant4.10.05.p01/include/Geant4/pwdefs.hh
  /usr/local/geant4.10.05.p01/include/Geant4/rundefs.hh
  /usr/local/geant4.10.05.p01/include/Geant4/templates.hh
  /usr/local/geant4.10.05.p01/include/Geant4/tls.hh
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o
- ../include/PrimaryGeneratorAction.hh
- /home/local1/Desktop/alfa/src/PrimaryGeneratorAction.cc
+ /home/local1/Desktop/alfa-master/alfa/src/PrimaryGeneratorAction.cc
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Random/DRand48Engine.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Random/DualRand.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Random/Hurd160Engine.h
@@ -2112,9 +2085,6 @@ CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o
  /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleDefinition.icc
  /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleGun.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleMomentum.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleTable.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleTable.icc
- /usr/local/geant4.10.05.p01/include/Geant4/G4ParticleTableIterator.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4PrimaryParticle.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4PrimaryVertex.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4String.hh
@@ -2125,7 +2095,6 @@ CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o
  /usr/local/geant4.10.05.p01/include/Geant4/G4Types.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VExceptionHandler.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VPrimaryGenerator.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4VUserPrimaryGeneratorAction.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4ios.hh
  /usr/local/geant4.10.05.p01/include/Geant4/Randomize.hh
  /usr/local/geant4.10.05.p01/include/Geant4/globals.hh
@@ -2133,26 +2102,21 @@ CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o
  /usr/local/geant4.10.05.p01/include/Geant4/templates.hh
  /usr/local/geant4.10.05.p01/include/Geant4/tls.hh
 CMakeFiles/PET.dir/src/RunAction.cc.o
- ../include/RunAction.hh
- /home/local1/Desktop/alfa/src/RunAction.cc
+ /home/local1/Desktop/alfa-master/alfa/src/RunAction.cc
  /usr/local/geant4.10.05.p01/include/Geant4/G4EnvironmentUtils.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4Exception.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4ExceptionSeverity.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4Run.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4String.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4String.icc
- /usr/local/geant4.10.05.p01/include/Geant4/G4Timer.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4Timer.icc
  /usr/local/geant4.10.05.p01/include/Geant4/G4Types.hh
- /usr/local/geant4.10.05.p01/include/Geant4/G4UserRunAction.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4VExceptionHandler.hh
  /usr/local/geant4.10.05.p01/include/Geant4/G4ios.hh
  /usr/local/geant4.10.05.p01/include/Geant4/globals.hh
  /usr/local/geant4.10.05.p01/include/Geant4/templates.hh
  /usr/local/geant4.10.05.p01/include/Geant4/tls.hh
 CMakeFiles/PET.dir/src/Source.cc.o
- ../include/Source.hh
- /home/local1/Desktop/alfa/src/Source.cc
+ /home/local1/Desktop/alfa-master/alfa/src/Source.cc
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/BasicVector3D.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Normal3D.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Plane3D.h
@@ -2325,7 +2289,7 @@ CMakeFiles/PET.dir/src/SteppingAction.cc.o
  ../include/OutputRoot.hh
  ../include/PrimaryGeneratorAction.hh
  ../include/SteppingAction.hh
- /home/local1/Desktop/alfa/src/SteppingAction.cc
+ /home/local1/Desktop/alfa-master/alfa/src/SteppingAction.cc
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/BasicVector3D.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Normal3D.h
  /usr/local/clhep/2.4.1.0/lib/CLHEP-2.4.1.0/../../include/CLHEP/Geometry/Point3D.h

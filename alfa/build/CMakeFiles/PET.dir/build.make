@@ -43,10 +43,10 @@ RM = /usr/local/cmake/3.13.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/local1/Desktop/alfa
+CMAKE_SOURCE_DIR = /home/local1/Desktop/alfa-master/alfa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/local1/Desktop/alfa/build
+CMAKE_BINARY_DIR = /home/local1/Desktop/alfa-master/alfa/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PET.dir/depend.make
@@ -59,159 +59,159 @@ include CMakeFiles/PET.dir/flags.make
 
 CMakeFiles/PET.dir/PET.cc.o: CMakeFiles/PET.dir/flags.make
 CMakeFiles/PET.dir/PET.cc.o: ../PET.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PET.dir/PET.cc.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/PET.cc.o -c /home/local1/Desktop/alfa/PET.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PET.dir/PET.cc.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/PET.cc.o -c /home/local1/Desktop/alfa-master/alfa/PET.cc
 
 CMakeFiles/PET.dir/PET.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PET.dir/PET.cc.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa/PET.cc > CMakeFiles/PET.dir/PET.cc.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa-master/alfa/PET.cc > CMakeFiles/PET.dir/PET.cc.i
 
 CMakeFiles/PET.dir/PET.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PET.dir/PET.cc.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa/PET.cc -o CMakeFiles/PET.dir/PET.cc.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa-master/alfa/PET.cc -o CMakeFiles/PET.dir/PET.cc.s
 
 CMakeFiles/PET.dir/src/DetectorConstruction.cc.o: CMakeFiles/PET.dir/flags.make
 CMakeFiles/PET.dir/src/DetectorConstruction.cc.o: ../src/DetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PET.dir/src/DetectorConstruction.cc.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/DetectorConstruction.cc.o -c /home/local1/Desktop/alfa/src/DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PET.dir/src/DetectorConstruction.cc.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/DetectorConstruction.cc.o -c /home/local1/Desktop/alfa-master/alfa/src/DetectorConstruction.cc
 
 CMakeFiles/PET.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PET.dir/src/DetectorConstruction.cc.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa/src/DetectorConstruction.cc > CMakeFiles/PET.dir/src/DetectorConstruction.cc.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa-master/alfa/src/DetectorConstruction.cc > CMakeFiles/PET.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/PET.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PET.dir/src/DetectorConstruction.cc.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa/src/DetectorConstruction.cc -o CMakeFiles/PET.dir/src/DetectorConstruction.cc.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa-master/alfa/src/DetectorConstruction.cc -o CMakeFiles/PET.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/PET.dir/src/Dish.cc.o: CMakeFiles/PET.dir/flags.make
 CMakeFiles/PET.dir/src/Dish.cc.o: ../src/Dish.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PET.dir/src/Dish.cc.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/Dish.cc.o -c /home/local1/Desktop/alfa/src/Dish.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PET.dir/src/Dish.cc.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/Dish.cc.o -c /home/local1/Desktop/alfa-master/alfa/src/Dish.cc
 
 CMakeFiles/PET.dir/src/Dish.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PET.dir/src/Dish.cc.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa/src/Dish.cc > CMakeFiles/PET.dir/src/Dish.cc.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa-master/alfa/src/Dish.cc > CMakeFiles/PET.dir/src/Dish.cc.i
 
 CMakeFiles/PET.dir/src/Dish.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PET.dir/src/Dish.cc.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa/src/Dish.cc -o CMakeFiles/PET.dir/src/Dish.cc.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa-master/alfa/src/Dish.cc -o CMakeFiles/PET.dir/src/Dish.cc.s
 
 CMakeFiles/PET.dir/src/EMPhysics.cc.o: CMakeFiles/PET.dir/flags.make
 CMakeFiles/PET.dir/src/EMPhysics.cc.o: ../src/EMPhysics.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PET.dir/src/EMPhysics.cc.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/EMPhysics.cc.o -c /home/local1/Desktop/alfa/src/EMPhysics.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PET.dir/src/EMPhysics.cc.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/EMPhysics.cc.o -c /home/local1/Desktop/alfa-master/alfa/src/EMPhysics.cc
 
 CMakeFiles/PET.dir/src/EMPhysics.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PET.dir/src/EMPhysics.cc.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa/src/EMPhysics.cc > CMakeFiles/PET.dir/src/EMPhysics.cc.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa-master/alfa/src/EMPhysics.cc > CMakeFiles/PET.dir/src/EMPhysics.cc.i
 
 CMakeFiles/PET.dir/src/EMPhysics.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PET.dir/src/EMPhysics.cc.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa/src/EMPhysics.cc -o CMakeFiles/PET.dir/src/EMPhysics.cc.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa-master/alfa/src/EMPhysics.cc -o CMakeFiles/PET.dir/src/EMPhysics.cc.s
 
 CMakeFiles/PET.dir/src/EventAction.cc.o: CMakeFiles/PET.dir/flags.make
 CMakeFiles/PET.dir/src/EventAction.cc.o: ../src/EventAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PET.dir/src/EventAction.cc.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/EventAction.cc.o -c /home/local1/Desktop/alfa/src/EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PET.dir/src/EventAction.cc.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/EventAction.cc.o -c /home/local1/Desktop/alfa-master/alfa/src/EventAction.cc
 
 CMakeFiles/PET.dir/src/EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PET.dir/src/EventAction.cc.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa/src/EventAction.cc > CMakeFiles/PET.dir/src/EventAction.cc.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa-master/alfa/src/EventAction.cc > CMakeFiles/PET.dir/src/EventAction.cc.i
 
 CMakeFiles/PET.dir/src/EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PET.dir/src/EventAction.cc.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa/src/EventAction.cc -o CMakeFiles/PET.dir/src/EventAction.cc.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa-master/alfa/src/EventAction.cc -o CMakeFiles/PET.dir/src/EventAction.cc.s
 
 CMakeFiles/PET.dir/src/GeneralPhysics.cc.o: CMakeFiles/PET.dir/flags.make
 CMakeFiles/PET.dir/src/GeneralPhysics.cc.o: ../src/GeneralPhysics.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PET.dir/src/GeneralPhysics.cc.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/GeneralPhysics.cc.o -c /home/local1/Desktop/alfa/src/GeneralPhysics.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PET.dir/src/GeneralPhysics.cc.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/GeneralPhysics.cc.o -c /home/local1/Desktop/alfa-master/alfa/src/GeneralPhysics.cc
 
 CMakeFiles/PET.dir/src/GeneralPhysics.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PET.dir/src/GeneralPhysics.cc.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa/src/GeneralPhysics.cc > CMakeFiles/PET.dir/src/GeneralPhysics.cc.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa-master/alfa/src/GeneralPhysics.cc > CMakeFiles/PET.dir/src/GeneralPhysics.cc.i
 
 CMakeFiles/PET.dir/src/GeneralPhysics.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PET.dir/src/GeneralPhysics.cc.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa/src/GeneralPhysics.cc -o CMakeFiles/PET.dir/src/GeneralPhysics.cc.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa-master/alfa/src/GeneralPhysics.cc -o CMakeFiles/PET.dir/src/GeneralPhysics.cc.s
 
 CMakeFiles/PET.dir/src/OutputRoot.cc.o: CMakeFiles/PET.dir/flags.make
 CMakeFiles/PET.dir/src/OutputRoot.cc.o: ../src/OutputRoot.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PET.dir/src/OutputRoot.cc.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/OutputRoot.cc.o -c /home/local1/Desktop/alfa/src/OutputRoot.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PET.dir/src/OutputRoot.cc.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/OutputRoot.cc.o -c /home/local1/Desktop/alfa-master/alfa/src/OutputRoot.cc
 
 CMakeFiles/PET.dir/src/OutputRoot.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PET.dir/src/OutputRoot.cc.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa/src/OutputRoot.cc > CMakeFiles/PET.dir/src/OutputRoot.cc.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa-master/alfa/src/OutputRoot.cc > CMakeFiles/PET.dir/src/OutputRoot.cc.i
 
 CMakeFiles/PET.dir/src/OutputRoot.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PET.dir/src/OutputRoot.cc.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa/src/OutputRoot.cc -o CMakeFiles/PET.dir/src/OutputRoot.cc.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa-master/alfa/src/OutputRoot.cc -o CMakeFiles/PET.dir/src/OutputRoot.cc.s
 
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: CMakeFiles/PET.dir/flags.make
 CMakeFiles/PET.dir/src/PhysicsList.cc.o: ../src/PhysicsList.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PET.dir/src/PhysicsList.cc.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/PhysicsList.cc.o -c /home/local1/Desktop/alfa/src/PhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PET.dir/src/PhysicsList.cc.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/PhysicsList.cc.o -c /home/local1/Desktop/alfa-master/alfa/src/PhysicsList.cc
 
 CMakeFiles/PET.dir/src/PhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PET.dir/src/PhysicsList.cc.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa/src/PhysicsList.cc > CMakeFiles/PET.dir/src/PhysicsList.cc.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa-master/alfa/src/PhysicsList.cc > CMakeFiles/PET.dir/src/PhysicsList.cc.i
 
 CMakeFiles/PET.dir/src/PhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PET.dir/src/PhysicsList.cc.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa/src/PhysicsList.cc -o CMakeFiles/PET.dir/src/PhysicsList.cc.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa-master/alfa/src/PhysicsList.cc -o CMakeFiles/PET.dir/src/PhysicsList.cc.s
 
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/PET.dir/flags.make
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o: ../src/PrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o -c /home/local1/Desktop/alfa/src/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.o -c /home/local1/Desktop/alfa-master/alfa/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa/src/PrimaryGeneratorAction.cc > CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa-master/alfa/src/PrimaryGeneratorAction.cc > CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa/src/PrimaryGeneratorAction.cc -o CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa-master/alfa/src/PrimaryGeneratorAction.cc -o CMakeFiles/PET.dir/src/PrimaryGeneratorAction.cc.s
 
 CMakeFiles/PET.dir/src/RunAction.cc.o: CMakeFiles/PET.dir/flags.make
 CMakeFiles/PET.dir/src/RunAction.cc.o: ../src/RunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PET.dir/src/RunAction.cc.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/RunAction.cc.o -c /home/local1/Desktop/alfa/src/RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PET.dir/src/RunAction.cc.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/RunAction.cc.o -c /home/local1/Desktop/alfa-master/alfa/src/RunAction.cc
 
 CMakeFiles/PET.dir/src/RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PET.dir/src/RunAction.cc.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa/src/RunAction.cc > CMakeFiles/PET.dir/src/RunAction.cc.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa-master/alfa/src/RunAction.cc > CMakeFiles/PET.dir/src/RunAction.cc.i
 
 CMakeFiles/PET.dir/src/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PET.dir/src/RunAction.cc.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa/src/RunAction.cc -o CMakeFiles/PET.dir/src/RunAction.cc.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa-master/alfa/src/RunAction.cc -o CMakeFiles/PET.dir/src/RunAction.cc.s
 
 CMakeFiles/PET.dir/src/Source.cc.o: CMakeFiles/PET.dir/flags.make
 CMakeFiles/PET.dir/src/Source.cc.o: ../src/Source.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PET.dir/src/Source.cc.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/Source.cc.o -c /home/local1/Desktop/alfa/src/Source.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PET.dir/src/Source.cc.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/Source.cc.o -c /home/local1/Desktop/alfa-master/alfa/src/Source.cc
 
 CMakeFiles/PET.dir/src/Source.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PET.dir/src/Source.cc.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa/src/Source.cc > CMakeFiles/PET.dir/src/Source.cc.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa-master/alfa/src/Source.cc > CMakeFiles/PET.dir/src/Source.cc.i
 
 CMakeFiles/PET.dir/src/Source.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PET.dir/src/Source.cc.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa/src/Source.cc -o CMakeFiles/PET.dir/src/Source.cc.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa-master/alfa/src/Source.cc -o CMakeFiles/PET.dir/src/Source.cc.s
 
 CMakeFiles/PET.dir/src/SteppingAction.cc.o: CMakeFiles/PET.dir/flags.make
 CMakeFiles/PET.dir/src/SteppingAction.cc.o: ../src/SteppingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/PET.dir/src/SteppingAction.cc.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/SteppingAction.cc.o -c /home/local1/Desktop/alfa/src/SteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/PET.dir/src/SteppingAction.cc.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PET.dir/src/SteppingAction.cc.o -c /home/local1/Desktop/alfa-master/alfa/src/SteppingAction.cc
 
 CMakeFiles/PET.dir/src/SteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PET.dir/src/SteppingAction.cc.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa/src/SteppingAction.cc > CMakeFiles/PET.dir/src/SteppingAction.cc.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/local1/Desktop/alfa-master/alfa/src/SteppingAction.cc > CMakeFiles/PET.dir/src/SteppingAction.cc.i
 
 CMakeFiles/PET.dir/src/SteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PET.dir/src/SteppingAction.cc.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa/src/SteppingAction.cc -o CMakeFiles/PET.dir/src/SteppingAction.cc.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/local1/Desktop/alfa-master/alfa/src/SteppingAction.cc -o CMakeFiles/PET.dir/src/SteppingAction.cc.s
 
 # Object files for target PET
 PET_OBJECTS = \
@@ -310,7 +310,7 @@ PET: /usr/local/geant4.10.05.p01/lib64/libG4intercoms.so
 PET: /usr/local/geant4.10.05.p01/lib64/libG4global.so
 PET: /usr/local/clhep/2.4.1.0/lib/libCLHEP-2.4.1.0.so
 PET: CMakeFiles/PET.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/local1/Desktop/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable PET"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/local1/Desktop/alfa-master/alfa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable PET"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PET.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -323,6 +323,6 @@ CMakeFiles/PET.dir/clean:
 .PHONY : CMakeFiles/PET.dir/clean
 
 CMakeFiles/PET.dir/depend:
-	cd /home/local1/Desktop/alfa/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/local1/Desktop/alfa /home/local1/Desktop/alfa /home/local1/Desktop/alfa/build /home/local1/Desktop/alfa/build /home/local1/Desktop/alfa/build/CMakeFiles/PET.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/local1/Desktop/alfa-master/alfa/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/local1/Desktop/alfa-master/alfa /home/local1/Desktop/alfa-master/alfa /home/local1/Desktop/alfa-master/alfa/build /home/local1/Desktop/alfa-master/alfa/build /home/local1/Desktop/alfa-master/alfa/build/CMakeFiles/PET.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PET.dir/depend
 
