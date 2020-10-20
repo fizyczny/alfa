@@ -26,15 +26,20 @@ SteppingAction::~SteppingAction()
 {
      G4double Akt=1.96;
      G4int liczba_cz=PrimaryGeneratorAction::l_cz;
+     
+     G4double e_J=dep_en/(6.24*pow(10,12));
+     G4double masa=1000*(3.1412*pow(0.015,2)*12.*pow(10,-6));
+     
      std::cout << "--------  W  Y  N  I  K  I  ---------" <<std::endl;
      std::cout <<"liczba czastek w symulacji: " << liczba_cz << std::endl;
-     std::cout <<"calkowita energia zdeponowana w komorkach to: "<< dep_en << " MeV = " << dep_en/(6.24*pow(10,12)) << "J"<< std::endl;
+     std::cout <<"calkowita energia zdeponowana w komorkach to: "<< dep_en << " MeV = " << e_J << "J"<< std::endl;
      std::cout <<"aktywnosc zrodla: "<<Akt<<" MBq"<< std::endl;
-     G4double e_calk=((Akt*pow(10,6))*dep_en/liczba_cz)/(6.24*pow(10,12));
+     G4double e_calk=((Akt*pow(10,6))*e_J/liczba_cz);
      
      std::cout <<"w czasie 1 sekundy energia zdeponowana w komorkach wynosi: "<< (Akt*pow(10,6))*dep_en/liczba_cz<<" MeV = "<<e_calk<<" J"<<std::endl;
-     std::cout << "Dawka zdeponowana w komorkach w czasie 1 sekundy = "<<e_calk/(8.48*pow(10,-6))<<" Gy"<<std::endl;
-     std::cout << "Moc dawki = " << 1/(e_calk/(8.48*pow(10,-6)))<<" s/Gy"<< std::endl;
+     std::cout << "Dawka zdeponowana w komorkach w czasie 1 sekundy = "<<e_calk/masa<<" Gy"<<std::endl;
+     std::cout << masa/e_calk << " s na 1 Gy"<<std::endl;
+     
      
      outputFile->SaveOutput();
      
