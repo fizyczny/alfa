@@ -33,9 +33,9 @@ void Dish::ConstructDish(double heigh, double radius, int nr_of_mylar)
      G4int nr_mylar= nr_of_mylar;
      
      G4double d_mylar = 3.*um;
-     G4double d_cell = 15.*um;
+     G4double d_cell = 5.*um;
      G4double d_medium = 6.*um;
-     G4double d_glass = 0.15*mm;
+     G4double d_glass = 0.2*um;
 
 
      G4LogicalVolume* mylarLogic = ConstructMylarLayer(radiusMax, nr_mylar); 
@@ -129,7 +129,7 @@ G4LogicalVolume* Dish::ConstructCells(double radius)
 {
    G4double rMin = 0.;
    G4double rMax = radius;
-   G4double Length = 12.*um; 
+   G4double Length = 5.*um; 
    G4Tubs* cellSolid = new G4Tubs("cellSolid", rMin, rMax, Length/2., 0*deg, 360*deg);
    
    G4NistManager* man=G4NistManager::Instance();
