@@ -57,9 +57,9 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 G4VPhysicalVolume* DetectorConstruction::ConstructWorld()
 {
 
-    G4double worldX = 10.*cm;
-    G4double worldY = 10.*cm;
-    G4double worldZ = 10.*cm;
+    G4double worldX = 6.*cm;
+    G4double worldY = 6.*cm;
+    G4double worldZ = 6.*cm;
     G4Box* worldSolid = new G4Box("worldSolid",worldX,worldY,worldZ);
     
     G4NistManager* man=G4NistManager::Instance();
