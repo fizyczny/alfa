@@ -28,7 +28,7 @@ SteppingAction::~SteppingAction()
      G4int liczba_cz=PrimaryGeneratorAction::l_cz;
      
      G4double e_J=dep_en/(6.24*pow(10,12));
-     G4double masa=1000*(3.1412*pow(0.015,2)*12.*pow(10,-6));
+     G4double masa=1000*(3.1412*pow(0.015,2)*5.*pow(10,-6));
      
      std::cout << "--------  W  Y  N  I  K  I  ---------" <<std::endl;
      std::cout <<"liczba czastek w symulacji: " << liczba_cz << std::endl;
