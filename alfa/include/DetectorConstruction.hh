@@ -14,6 +14,7 @@
 #include "G4Material.hh" //materiały
 #include "Dish.hh"
 #include "Source.hh"
+#include "Colimator.hh"
 
 class DetectorConstruction : public G4VUserDetectorConstruction
 {
@@ -23,18 +24,21 @@ class DetectorConstruction : public G4VUserDetectorConstruction
     virtual ~DetectorConstruction(); //destruktor
     virtual G4VPhysicalVolume* Construct(); //tu będzie wszystko budowane
     G4LogicalVolume* sourceLogVol;
+    G4LogicalVolume* colLogVol;
 
 
   private:
     G4LogicalVolume* worldLogic; //świat
-    G4LogicalVolume* dishLogVol;
     G4NistManager* man;
+    G4LogicalVolume* dishLogVol;
     //G4VPhysicalVolume* worldPhys;
     G4VPhysicalVolume* ConstructWorld(); //metoda w której świat zostanie zbudowany
     void ConstructSource();
     void ConstructDish();
+    void ConstructColimator();
     Dish *dish;
     Source *source;
+    Colimator *colimator;
     
 
     
