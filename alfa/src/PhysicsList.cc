@@ -9,7 +9,28 @@
 #include "EMPhysics.hh"
 #include "G4SystemOfUnits.hh"
 
+#include "G4SystemOfUnits.hh"
 
+#include "G4EmDNAPhysics_option2.hh"
+
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+
+PhysicsList::PhysicsList()
+: G4VModularPhysicsList()
+{
+SetDefaultCutValue(1*nanometer);
+SetVerboseLevel(1);
+
+// Geant4-DNA physics
+RegisterPhysics(new G4EmDNAPhysics_option2());
+}
+
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+
+PhysicsList::~PhysicsList()
+{}
+
+/*
 PhysicsList::PhysicsList() : G4VModularPhysicsList()
 {
   // default cut value  (1.0mm)
@@ -31,7 +52,7 @@ void PhysicsList::SetCuts(){
   //   the default cut value for all particle types
   SetCutsWithDefault();
 }
-
+*/
 
 
 

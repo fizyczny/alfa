@@ -18,6 +18,7 @@
 #include "G4PSEnergyDeposit.hh"
 #include "Source.hh"
 #include "Dish.hh"
+#include "Colimator.hh"
 
 
 DetectorConstruction::DetectorConstruction()
@@ -25,8 +26,10 @@ DetectorConstruction::DetectorConstruction()
     worldLogic = 0L;
     sourceLogVol=0L;
     dishLogVol=0L;
+    colLogVol =0L;
     dish=0;
     source=0;
+    colimator=0;
     man = G4NistManager::Instance();
 }
 
@@ -40,6 +43,8 @@ DetectorConstruction::~DetectorConstruction()
         delete sourceLogVol;        
     if(dishLogVol != 0L)
         delete dishLogVol; 
+    if(colLogVol != 0L)
+        delete colLogVol; 
 }
 
 
@@ -48,6 +53,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     G4VPhysicalVolume* worldPhys = ConstructWorld();
     ConstructSource();
     ConstructDish();
+    ConstructColimator();
 
     
     return worldPhys;
@@ -92,18 +98,26 @@ void DetectorConstruction::ConstructDish()
 {
     G4int nr_of_mylar = 1;
     
-    G4double radiusMax = 15.*mm;
-    G4double length = 1.*cm;
+    G4double radiusMax = 1.5*cm;
+    G4double length = 1.*mm;
     dish = new Dish(length, radiusMax, nr_of_mylar);
 
-    G4ThreeVector pos(0,0,0.5*cm); 
+    G4ThreeVector pos(0,0,7.5*mm); 
     dish->Place(0, pos, "dish", worldLogic, 0);
 
 }
 
 
+void DetectorConstruction::ConstructColimator()
+{
+    G4double radiusMax = 2.6*cm;
+    G4double length = 5.*mm;
+    colimator = new Colimator(length, radiusMax);
 
+    G4ThreeVector pos(0,0,3.5*mm); 
+    colimator->Place(0, pos, "colimator", worldLogic, 0);
 
+}
 
 
 

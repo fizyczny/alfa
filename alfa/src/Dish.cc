@@ -32,15 +32,15 @@ void Dish::ConstructDish(double heigh, double radius, int nr_of_mylar)
      G4double length = heigh;
      G4int nr_mylar= nr_of_mylar;
      
-     G4double d_mylar = 3.*um;
-     G4double d_cell = 5.*um;
+     G4double d_mylar = 3*um;
+     G4double d_cell = 2.*um;
      G4double d_medium = 6.*um;
-     G4double d_glass = 0.2*um;
+     G4double d_glass = 0.15*mm;
 
 
      G4LogicalVolume* mylarLogic = ConstructMylarLayer(radiusMax, nr_mylar); 
      G4LogicalVolume* mediumLogic = ConstructMediumLayer(radiusMax);
-     G4LogicalVolume* glassLogic = ConstructGlassLayer(radiusMax);   
+     //G4LogicalVolume* glassLogic = ConstructGlassLayer(radiusMax);   
      CellLogic = ConstructCells(radiusMax); 
      
      G4NistManager* man=G4NistManager::Instance();
@@ -49,21 +49,21 @@ void Dish::ConstructDish(double heigh, double radius, int nr_of_mylar)
      G4Tubs* theCylinder = new G4Tubs("theCylinder", radiusMin, radiusMax, length/2, 0*deg, 360*deg);
      dishLogVol = new G4LogicalVolume(theCylinder, air, "dishLogVol");
 
-     G4VisAttributes* dishAtt = new G4VisAttributes(G4Colour(0,0,0));
+     G4VisAttributes* dishAtt = new G4VisAttributes(G4Colour(1,0,1));
      dishAtt->SetForceSolid(true);
      dishLogVol->SetVisAttributes(dishAtt);
 
    
-     G4ThreeVector pos_mylar(0,0,-5*mm+(nr_mylar*d_mylar)/2.);
+     G4ThreeVector pos_mylar(0,0,-0.5*mm+(nr_mylar*d_mylar)/2.);
      new G4PVPlacement(0, pos_mylar, mylarLogic, "mylarPhys", dishLogVol, 0, 0);
      
-     G4ThreeVector pos_medium(0,0,-5*mm+(nr_mylar*d_mylar)+d_medium/2.);
+     G4ThreeVector pos_medium(0,0,-0.5*mm+(nr_mylar*d_mylar)+d_cell+d_medium/2.);
      new G4PVPlacement(0, pos_medium, mediumLogic, "mediumPhys", dishLogVol, 0, 0);
      
-     G4ThreeVector pos_glass(0,0,-5*mm+(nr_mylar*d_mylar)+d_medium+d_cell+d_glass/2.);
-     new G4PVPlacement(0, pos_glass, glassLogic, "glassPhys", dishLogVol, 0, 0);
+     //G4ThreeVector pos_glass(0,0,-0.5*mm+(nr_mylar*d_mylar)+d_medium+d_cell+d_glass/2.);
+     //new G4PVPlacement(0, pos_glass, glassLogic, "glassPhys", dishLogVol, 0, 0);
 
-     G4ThreeVector pos_cell(0,0,-5*mm+(nr_mylar*d_mylar)+d_medium+d_cell/2.);
+     G4ThreeVector pos_cell(0,0,-0.5*mm+(nr_mylar*d_mylar)+d_cell/2.);
      new G4PVPlacement(0, pos_cell, CellLogic, "cellPhys", dishLogVol, 0, 0);   
 }
 
@@ -72,7 +72,7 @@ G4LogicalVolume* Dish::ConstructMylarLayer(double radius, int nr_mylar)
    G4double rMin = 0.;
    G4double rMax = radius;
    G4int mylars = nr_mylar;
-   G4double Length = mylars * 3.*um; 
+   G4double Length = mylars * 3*um; 
    G4Tubs* mylarSolid = new G4Tubs("mylarSolid", rMin, rMax, Length/2., 0*deg, 360*deg);
    
    G4NistManager* man=G4NistManager::Instance();
@@ -110,7 +110,7 @@ G4LogicalVolume* Dish::ConstructGlassLayer(double radius)
 {
    G4double rMin = 0.;
    G4double rMax = radius;
-   G4double Length = 20.*um; 
+   G4double Length = 0.15*mm; 
    G4Tubs* glassSolid = new G4Tubs("glassSolid", rMin, rMax, Length/2., 0*deg, 360*deg);
    
    G4NistManager* man=G4NistManager::Instance();
@@ -129,7 +129,7 @@ G4LogicalVolume* Dish::ConstructCells(double radius)
 {
    G4double rMin = 0.;
    G4double rMax = radius;
-   G4double Length = 5.*um; 
+   G4double Length = 2.*um; 
    G4Tubs* cellSolid = new G4Tubs("cellSolid", rMin, rMax, Length/2., 0*deg, 360*deg);
    
    G4NistManager* man=G4NistManager::Instance();
