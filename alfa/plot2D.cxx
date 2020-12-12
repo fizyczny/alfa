@@ -4,11 +4,11 @@ void plot2D()
     TFile* f = new TFile("POS.root");
     TTree* t=(TTree*)f->Get("PosInfo");
 
-    double xMin = -20;
-    double xMax = 20;
+    double xMin = -35;
+    double xMax = 35;
     int nBinsX = 1*(xMax-xMin);
-    double yMin = -20;
-    double yMax = 20;
+    double yMin = -35;
+    double yMax = 35;
     int nBinsY = 1*(yMax-yMin);
     
     TH2F* IdId = new TH2F("IdId","Pos_en",nBinsX,xMin,xMax, nBinsY, yMin, yMax);
